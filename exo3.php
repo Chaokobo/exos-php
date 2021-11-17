@@ -10,7 +10,20 @@
 </head>
 <body>
 <?php
-    $a = array('Nom' => array())
+    $a = array('Nom' => array('Borgne','Boulanger','Dehan','Duval','Filleux','Odrzywolek','Raoult'),
+    'Prenom' => array('Valentin','Sam','Enzo','William','Geoffrey','Ryan','Gautier'),
+    'MDP' => array('puanteur','gros','klee','wonka','displate','thailande','orange'));
 ?>
+<table>
+  <?php
+    for($i=0,$i<=3,$i++)
+    {
+      for($j=0,$j<=7,$j++)
+      {
+        echo
+      }
+    }
+  ?>
+</table>
 </body>
 </html>
