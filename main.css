@@ -1,0 +1,15 @@
+.bleu{
+    color:blue;
+}
+
+.rouge{
+    color:red;
+}
+
+TABLE{
+    border:solid;
+}
+
+TD{
+    outline: solid;
+}
