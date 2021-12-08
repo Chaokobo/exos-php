@@ -10,7 +10,10 @@
 </head>
 <body>
 <?php
-    $a = array('Nom' => 'Boulanger','Prenom' => 'Sam', 'MDP' => 'oui',);
+    $a = array(
+    'Nom' => 'Boulanger',
+    'Prenom' => 'Sam', 
+    'MDP' => 'oui',);
     echo "Nom : ".$a['Nom']." ; ";
     echo "Prenom : ".$a['Prenom']." ; ";
     echo "Mot de passe : ".$a['MDP'];
